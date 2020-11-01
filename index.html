@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Good Vibes Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.aa{
+			background-color: #00ffff;
+			height: 900px;
+			width: 1500px;
+		}
+		.bb{
+			margin-top: -790px;
+			height: 550px;
+			width: 1200px;
+			background-color: white;
+			margin-left: 50px;
+		}
+		#e{
+			margin-bottom: -150px;
+		}
+		h1{
+			font-size: 39px;
+		}
+		h2{
+			font-size: 30px;
+		}
+		label{
+			font-size: 23px;
+			margin-left: 490px;
+			line-height: 1.5;
+		}
+		input{
+			margin-left: 15px;
+		}
+		#b{
+			margin-left: 820px;
+			font-size: 20px;
+			background-color: #7fffd4;
+			margin-top: 25px;
+		}
+		#radio{
+			margin-left: 813px;
+		}
+		#a{
+			margin-left: 822px;
+		}
+		#d{
+			margin-left: 130px;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+	<center id="e"><h1>Good Vibes Form</h1></center>
+	<div class="aa"></div>
+	<table>
+		<div class="bb">
+	<form>
+		
+		<center><h2>Tell us something positive that happened you today.</h2></center>
+		<label>Name</label>
+		<input type="text" placeholder="enter your name"><br>
+		<label>Email</label>
+		<input type="email" placeholder="enter your email address"><br>
+		<label>On a scale of 1-10, how good was it?</label>
+		<input type="number" placeholder="enter a nuber between 1 and 10"><br>
+		<label>When did it happen? </label>
+		<select>
+			<option>At home</option>
+			<option>Outside home</option>
+			<option>At park</option>
+		</select><br>
+		<label>At what time of day did it happen?</label>
+		<input type="radio" name="morning" value="morning">Morning<br>
+		<div id="radio">
+		<input type="radio" name="afternoon" value="afternoon">Afternoon<br>
+		<input type="radio" name="evening" value="evening">Evening<br>
+	    </div>
+		<label>What emotions did you experience?<br></label>
+		<label>(Select all that apply)</label>
+		<input type="checkbox" name="excited" id="d">Excited<br>
+		<input type="checkbox" name="humbled" id="a">Humbled<br>
+		<input type="checkbox" name="elated" id="a">Elated<br>
+		<input type="checkbox" name="loved" id="a">Loved<br>
+		<input type="checkbox" name="enthusiastic" id="a">Enthusiastic<br>
+		<label>Please describe your positive experience </label>
+		<input type="text" name="address" placeholder="enter your experience here...."><br>
+		<input type="submit" name="submit" id="b">
+    </form>
+</table>
+</div>
+
+</body>
+</html>
